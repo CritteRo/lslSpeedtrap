@@ -3,6 +3,11 @@ game 'gta5'
 
 author 'CritteR / CritteRo'
 
+dependencies {
+    'mysql-async',
+    'critLobby'
+}
+
 client_scripts {
     'client/cl_speedtrap_scaleform.lua',
     'client/cl_speedtrap_handle.lua',
