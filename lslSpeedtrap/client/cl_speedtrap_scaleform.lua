@@ -73,7 +73,7 @@ AddEventHandler('lslSpeedtrap.ShowSpeed', function(_speed, _trapName)
             spd = math.floor(_speed * 2.236936).." MPH"
         end
         --scale = generateCountdown(spd, 0, 150, 200)
-        scale = generateBanner(spd, 'Cought by ~y~"'.._trapName..'"~s~ camera.')
+        scale = generateBanner(spd, 'Caught by ~y~"'.._trapName..'"~s~ camera.')
     else
         --scale = generateCountdown("TOO SLOW", 0, 150, 200)
         scale = generateBanner("TOO SLOW", '')
